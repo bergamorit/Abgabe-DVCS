@@ -1,0 +1,58 @@
+@startuml
+skinparam actorStyle awesome
+
+title Kontaktloser Kinobesuch - High-Level Digramm
+
+actor Besucher as B
+
+"Einlass" as (Einlass)
+
+package Anwendung{
+    "Kino-Website besuchen" as (KinoWeb)
+    "Kino-App besuchen" as (KinoApp)
+}
+
+package Reservierung {
+    "Film auswählen" as (Film)
+    "Uhrzeit auswählen" as (Uhrzeit)
+    "Sitzplatz auswählen" as (Sitzplatz)
+    "Ticketübersicht aufrufen" as (Ticket)
+    "Ticket bezahlen" as (Bezahlen)
+}
+
+package Snackbestellung{
+    "Essen/Trinken bestellen" as (BestellungVerpflegung)
+    "Bestellung bezahlen" as (BezahlenVerpflegung)
+    "Snacks online bestellen" as (Snack)
+}
+
+package Unterlagen{
+    "PDF/Badge herunterladen" as (Download)
+    "Eintrittskarte drucken" as (Drucken)
+    "Bestellbestätigung drucken" as (Bon)
+}
+
+B --> (KinoApp)
+B --> (KinoWeb)
+
+(KinoApp) --> (Film)
+(KinoWeb) --> (Film)
+
+(KinoApp) --> (Snack)
+(KinoWeb) --> (Snack)
+
+(Film) --> (Uhrzeit)
+(Uhrzeit) --> (Sitzplatz)
+(Sitzplatz) --> (Ticket)
+(Ticket) --> (Bezahlen)
+(Bezahlen) --> (Drucken)
+(Bezahlen) --> (Download)
+
+(Snack) --> (BestellungVerpflegung)
+(BestellungVerpflegung) --> (BezahlenVerpflegung)
+(BezahlenVerpflegung) --> (Bon)
+
+(Drucken) --> (Einlass)
+(Download) --> (Einlass)
+
+@enduml

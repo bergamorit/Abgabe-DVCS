@@ -1,0 +1,105 @@
+@startuml
+
+title Kontaktloser Kinobesuch - Klassendiagramm
+
+skinparam packageStyle rectangle
+
+class Benutzerkonto{
+    - benutzername: String
+    - passwort: String
+    + eMail: String
+    + name: String
+    + strasse: String
+    + plz: Integer
+    + stadt: String
+    anmelden()
+    registrieren()
+    benutzerinformationenBearbeiten()
+}
+
+class Filmprogramm{
+    + filmtitel: String
+    + regisseur: String
+    + spielzeit: String
+    filmAnzeigen()
+}
+
+class Film{
+    + filmtitel: String
+    + datum: Date
+    + uhrzeit: Time
+    filmAuswaehlen()
+}
+class Sitzplatz{
+    + benutzername
+    + kinosaal: String
+    + reihe: Character
+    + sitzplatz: Integer
+    + ticketpreis: Float
+    sitzplatzAuswahl()
+    ticketBestellen()
+}
+
+class Verpflegung{
+    + essen: String
+    + trinken: String
+    + verpflegungspreis: Float
+    verpflegungBestellen()
+}
+
+class Banking{
+    + bezahloption: String
+    + bezahlstatus: Boolean
+    paypalBezahlung()
+    kreditkartenBezahlung()
+    sofortUeberweisung()
+}
+
+class Eintrittskarte{
+    ticketpreis: Float
+    getFilmtitel()
+    getDatum()
+    getUhrzeit()
+    getKinosaal()
+    getReihe()
+    getSitzplatz()
+    getTicketpreis()
+    ticketDrucken()
+    ticketSpeichern()
+    getBezahlstatus()
+}
+
+class Snackticket{
+    snackpreis: Float
+    getEssen()
+    getTrinken()
+    getVerpflegungspreis()
+    verpflegungsticketDrucken()
+    verpflegungsticketSpeichern()
+    getBezahlstatus()
+}
+
+class Einlass{
+    + gültigkeit: Boolean
+    ticketScannen()
+}
+
+class Snackausgabe{
+    + gültigkeit: Boolean
+    verpflegungsticketScannen()
+}
+
+Benutzerkonto --> Sitzplatz
+Benutzerkonto --> Snackticket
+Benutzerkonto --> Eintrittskarte
+Eintrittskarte ..> Sitzplatz
+Eintrittskarte ..> Film
+Film ..> Filmprogramm
+Snackausgabe ..> Snackticket
+Einlass ..> Eintrittskarte
+Snackticket ..> Verpflegung
+Benutzerkonto --> Banking
+Eintrittskarte ..> Banking
+Snackticket ..> Banking
+
+@enduml
