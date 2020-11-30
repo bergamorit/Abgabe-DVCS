@@ -1,5 +1,6 @@
 # Verfahren und Werkzeuge moderner Softwareentwicklung
 Erstes Repository im Rahmen des Onlinestudiengangs Medieninformatik (MA) der Hochschule Emden.
+Erstellt von Moritz Bergan
 
 ## Inhalte
 * [Allgemeine Informationen](#Allgemeine-Informationen)
