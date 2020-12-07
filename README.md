@@ -8,6 +8,7 @@ Erstellt von Moritz Bergan
 * [DDD](#DDD)
 * [Metriken](#Metriken)
 * [CCD](#CCD)
+* [Buildmanagement](#Buildmanagement)
 
 ## Allgemeine Informationen
 Dieses Repository enthält die Einsendeaufgaben für das Fach "Verfahren und Werkzeuge moderner Softwareentwicklung", welche im Wintersemester 2020/2021 von mir erstellt wurden.
@@ -33,4 +34,10 @@ Die Einsendeaufgabe Metriken beschäftigt sich mit der Untersuchung eines Java R
 Die Einsendeaufgabe zeigt eine Optimierung des Java Raytracers nach Verbesserung der Checkstyle Fehler und Warnungen.
 * CCD_MoritzBergan (PDF)
 * CCD_MoritzBergan (DOCX)
-* CCD Java Projekt (IntelliJ
+* CCD Java Projekt (IntelliJ)
+
+## Buildmanagement
+Die Einsendeaufgabe zeigt die Implementierung einer Build.xml Datei am Beispiel des Java Raytracers.
+* Buildmanagement_MoritzBergan (PDF)
+* Buildmanagement_MoritzBergan (DOCX)
+* Raytracer Projekt (IntelliJ)
