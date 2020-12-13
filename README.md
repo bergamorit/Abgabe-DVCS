@@ -43,7 +43,7 @@ Die Einsendeaufgabe zeigt die Implementierung einer Build.xml Datei am Beispiel 
 * Buildmanagement_MoritzBergan (DOCX)
 * Raytracer Projekt (IntelliJ)
 
-## CD
+## Continious Delivery
 Die Einsendeaufgabe zeigt die Implementierung eines Continious Delivery am Beispiel des Ant-Skripte aus der vorigen Einsendeaufgabe.
 * CD_MoritzBergan (PDF)
 * CD_MoritzBergan (DOCX)
