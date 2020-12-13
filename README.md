@@ -9,7 +9,6 @@ Erstellt von Moritz Bergan
 * [Metriken](#Metriken)
 * [CCD](#CCD)
 * [Buildmanagement](#Buildmanagement)
-* [Continious Delivery](#Continious-Delivery)
 
 ## Allgemeine Informationen
 Dieses Repository enthält die Einsendeaufgaben für das Fach "Verfahren und Werkzeuge moderner Softwareentwicklung", welche im Wintersemester 2020/2021 von mir erstellt wurden.
@@ -42,9 +41,3 @@ Die Einsendeaufgabe zeigt die Implementierung einer Build.xml Datei am Beispiel 
 * Buildmanagement_MoritzBergan (PDF)
 * Buildmanagement_MoritzBergan (DOCX)
 * Raytracer Projekt (IntelliJ)
-
-## Continious Delivery
-Die Einsendeaufgabe zeigt die Implementierung eines Continious Delivery am Beispiel des Ant-Skripte aus der vorigen Einsendeaufgabe.
-* CD_MoritzBergan (PDF)
-* CD_MoritzBergan (DOCX)
-* Ant Projekt (IntelliJ)
