@@ -9,6 +9,7 @@ Erstellt von Moritz Bergan
 * [Metriken](#Metriken)
 * [CCD](#CCD)
 * [Buildmanagement](#Buildmanagement)
+* [AOP & Microservices](#AOP & Microservices)
 
 ## Allgemeine Informationen
 Dieses Repository enthält die Einsendeaufgaben für das Fach "Verfahren und Werkzeuge moderner Softwareentwicklung", welche im Wintersemester 2020/2021 von mir erstellt wurden.
@@ -41,3 +42,9 @@ Die Einsendeaufgabe zeigt die Implementierung einer Build.xml Datei am Beispiel 
 * Buildmanagement_MoritzBergan (PDF)
 * Buildmanagement_MoritzBergan (DOCX)
 * Raytracer Projekt (IntelliJ)
+
+## AOP & Microservices
+Die Einsendeaufgabe zeigt die Implementierung einer AspectJ .aj-Datei am Beispiel des Java Raytracers.
+* AOP_MoritzBergan (PDF)
+* AOP_MoritzBergan (DOCX)
+* AspectJ Projekt (IntelliJ)
