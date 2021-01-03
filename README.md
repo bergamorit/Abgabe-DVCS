@@ -9,7 +9,7 @@ Erstellt von Moritz Bergan
 * [Metriken](#Metriken)
 * [CCD](#CCD)
 * [Buildmanagement](#Buildmanagement)
-* [AOP & Microservices](#AOP)
+* [AOP](#AOP)
 
 ## Allgemeine Informationen
 Dieses Repository enthält die Einsendeaufgaben für das Fach "Verfahren und Werkzeuge moderner Softwareentwicklung", welche im Wintersemester 2020/2021 von mir erstellt wurden.
