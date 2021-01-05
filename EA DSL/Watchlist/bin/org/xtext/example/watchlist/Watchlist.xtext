@@ -1,0 +1,18 @@
+grammar org.xtext.example.watchlist.Watchlist with org.eclipse.xtext.common.Terminals
+
+generate watchlist "http://www.xtext.org/example/watchlist/Watchlist"
+
+Model:
+	action+=Action*;
+	
+Action:
+	addMovie | removeMovie;
+	
+addMovie:
+	'add' movie;
+	
+removeMovie:
+	'remove' movie;
+	
+movie:
+	name=ID;
