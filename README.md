@@ -51,13 +51,13 @@ Die Einsendeaufgabe zeigt die Implementierung einer AspectJ .aj-Datei am Beispie
 * AOP_MoritzBergan (DOCX)
 * AspectJ Projekt (IntelliJ)
 
-##DSL
+## DSL
 Die Einsendeaufgabe zeigt die Implementierung einer DSL am Beispiel einer Watchlist für Kinofilme.
 * DSL_MoritzBergan (PDF)
 * DSL_MoritzBergan (DOCX)
 * Watchlist Projekt (Eclipse)
 
-##FP1
+## FP1
 Die Einsendeaufgabe zeigt die Auseinandersetzung mit dem Thema Funktionale Programmierung
 * FP1_MoritzBergan (PDF)
 * FP1_MoritzBergan (DOCX)
