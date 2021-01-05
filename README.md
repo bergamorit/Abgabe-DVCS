@@ -10,6 +10,8 @@ Erstellt von Moritz Bergan
 * [CCD](#CCD)
 * [Buildmanagement](#Buildmanagement)
 * [AOP](#AOP)
+* [DSL](#DSL)
+* [FP1](#FP1)
 
 ## Allgemeine Informationen
 Dieses Repository enthält die Einsendeaufgaben für das Fach "Verfahren und Werkzeuge moderner Softwareentwicklung", welche im Wintersemester 2020/2021 von mir erstellt wurden.
@@ -48,3 +50,14 @@ Die Einsendeaufgabe zeigt die Implementierung einer AspectJ .aj-Datei am Beispie
 * AOP_MoritzBergan (PDF)
 * AOP_MoritzBergan (DOCX)
 * AspectJ Projekt (IntelliJ)
+
+##DSL
+Die Einsendeaufgabe zeigt die Implementierung einer DSL am Beispiel einer Watchlist für Kinofilme.
+* DSL_MoritzBergan (PDF)
+* DSL_MoritzBergan (DOCX)
+* Watchlist Projekt (Eclipse)
+
+##FP1
+Die Einsendeaufgabe zeigt die Auseinandersetzung mit dem Thema Funktionale Programmierung
+* FP1_MoritzBergan (PDF)
+* FP1_MoritzBergan (DOCX)
